@@ -37,7 +37,7 @@ body {
     height: 100vh;
     
 }
-div {
+main {
     background-color: var(--Grey8);
     border-radius: 10px;
     max-width: 500px;
@@ -81,12 +81,18 @@ h2 {
     text-decoration: none;
     font-family: var(--Font1);
     font-size: 14px;
-    margin: 0;
+    margin: 0;          
     text-align: center;
     padding: 5px;
  }
-a:hover {background-color: var(--Green);
+
+ a:hover {background-color: var(--Green);
     border-radius: 5px;
+}
+
+a:focus {background-color: var(--Green);
+    border-radius: 5px;
+    outline: 2px solid var(--Green);
 }
 
  ul { 
