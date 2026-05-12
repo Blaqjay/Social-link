@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Bold;
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Semibold;
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Variable;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey7: hsl(0, 0%, 20%);
+    --Grey8: hsl(0, 0%, 12%);
+    --Grey9: hsl(0, 0%, 8%);
+    --Font1: Bold;
+    --Font2: Regular;
+    --Font3: Inter-VariableFont_slnt;
+    --Font4: Variable;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: var(--Grey9);
+    height: 100vh;
+    
+}
+div {
+    background-color: var(--Grey8);
+    border-radius: 10px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+img {
+    width: 70px;
+    border-radius: 35px;
+}
+
+h2 {
+    font-family: var(--Font1);
+    font-size: 24px;
+    color: var(--White);
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.address {
+    color: var(--Green);
+    font-family: var(--Font1);
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.about {
+    font-size: 12px;
+    font-family: var(--Font2);
+    color: var(--White);
+ }
+
+ a { display: block;
+    color: var(--White);
+    text-decoration: none;
+    font-family: var(--Font1);
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+ }
+a:hover {background-color: var(--Green);
+    border-radius: 5px;
+}
+
+ ul { 
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+ }
+
+ li {
+    background-color: var(--Grey7);
+    border-radius: 5px;
+    width: 230px;
+    height: 30px;
+ }
